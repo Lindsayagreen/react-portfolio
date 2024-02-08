@@ -1,6 +1,6 @@
 import React from "react";
-import "./Resume.css"; // Import CSS file for Resume component
-
+import "./Resume.css";
+// Import CSS file for Resume component
 const Resume = () => {
   return (
     <div className="resume-container">
