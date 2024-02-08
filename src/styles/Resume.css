@@ -1,0 +1,17 @@
+/* Resume.css */
+
+.resume-container {
+    max-width: 800px; /* Set maximum width for the resume container */
+    margin: 0 auto; /* Center the resume container horizontally */
+  }
+  
+  .resume-heading {
+    font-size: 24px; /* Set font size for the resume heading */
+    margin-bottom: 20px; /* Add space below the resume heading */
+  }
+  
+  .resume-content {
+    font-size: 16px; /* Set font size for the resume content */
+    line-height: 1.6; /* Set line height for better readability */
+  }
+  

@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align navigation to the right */
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 20px; /* Add space between menu items */
+  }
+  
+  .active {
+    font-weight: bold; /* Style for active menu item */
+  }
+  
+  a {
+    text-decoration: none;
+    color: black; /* Change color as per your design */
+  }
+  
+  a:hover {
+    color: blue; /* Change color on hover as per your design */
+  }
+  

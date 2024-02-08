@@ -1,0 +1,49 @@
+/* Portfolio.css */
+
+.portfolio-container {
+    max-width: 800px; /* Set maximum width for the portfolio container */
+    margin: 0 auto; /* Center the portfolio container horizontally */
+  }
+  
+  .card {
+    border: 1px solid #ccc; /* Add border to the card */
+    border-radius: 8px; /* Add border radius to the card */
+    margin-bottom: 20px; /* Add space between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow to the card */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Make the image fill the width of the card */
+    border-top-left-radius: 8px; /* Add border radius to the top left corner of the image */
+    border-top-right-radius: 8px; /* Add border radius to the top right corner of the image */
+  }
+  
+  .card-body {
+    padding: 20px; /* Add padding inside the card body */
+  }
+  
+  .card-title {
+    font-size: 20px; /* Set font size for the card title */
+    margin-bottom: 10px; /* Add space below the card title */
+  }
+  
+  .card-text {
+    font-size: 16px; /* Set font size for the card text */
+  }
+  
+  .btn {
+    display: inline-block; /* Make the buttons inline */
+    margin-top: 10px; /* Add space above the buttons */
+  }
+  
+  .btn-primary {
+    color: #fff; /* Set text color for primary button */
+    background-color: #007bff; /* Set background color for primary button */
+    border-color: #007bff; /* Set border color for primary button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    border-color: #0056b3; /* Change border color on hover */
+  }
+  

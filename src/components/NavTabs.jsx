@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+<components></components>
+
 const Navigation = () => {
   // State to keep track of the active item
   const [activeItem, setActiveItem] = useState('about');

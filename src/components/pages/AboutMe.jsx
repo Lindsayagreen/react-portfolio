@@ -1,4 +1,5 @@
 import "../../styles/aboutme.css";
+import React from "react";
 
 export default function Aboutme() {
   return (
@@ -10,7 +11,7 @@ export default function Aboutme() {
         <p> Lindsay Green </p>
       </div>
       <div className="aboutMeQuote">
-        <p>"Where are we?"</p>
+        <p>"ighjfljghkj"</p>
       </div>
       <div className="aboutmeSection">
         <div className="paragraph">
@@ -27,4 +28,6 @@ export default function Aboutme() {
     </div>
 
   );
-}
+};
+
+

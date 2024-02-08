@@ -1,0 +1,25 @@
+/* Contact.css */
+
+.contact-container {
+    text-align: center; /* Align content to the center */
+  }
+  
+  .contact-heading {
+    font-size: 24px; /* Set font size for the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  .contact-email {
+    font-size: 18px; /* Set font size for the email */
+  }
+  
+  .contact-email a {
+    text-decoration: none; /* Remove underline from the email link */
+    color: #007bff; /* Set color for the email link */
+  }
+  
+  .contact-email a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+/* when I try and import to Contact.jsx I get an error */
