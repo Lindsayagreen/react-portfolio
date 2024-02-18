@@ -1,26 +1,25 @@
-import React from 'react';
-// Import the style sheet for Footer
-
+import React from "react";
+import "../styles/Footer.css"; // Import CSS file for Footer component
 
 const Footer = () => {
   return (
-    <footer className="footer-container"> 
-      <div> 
+    <footer className="footer-container fixed-bottom bg-dark text-white">
+      <div className="container">
         {/* Link to GitHub profile */}
-        <a href="" target="_blank" rel="noopener noreferrer" class="footers">
-          GitHub : <i className="github"></i> {/* GitHub icon */}
+        <a href="" target="_blank" rel="noopener noreferrer" className="text-white">
+          GitHub : <i className="fab fa-github"></i> {/* GitHub icon */}
         </a>
 
         {/* Link to LinkedIn profile */}
-        <a href="" target="_blank" rel="noopener noreferrer" class="footers">
-          LinkedIn : <i className="linkedin"></i> {/* LinkedIn icon */}
+        <a href="" target="_blank" rel="noopener noreferrer" className="text-white ml-3">
+          LinkedIn : <i className="fab fa-linkedin"></i> {/* LinkedIn icon */}
         </a>
 
         {/* Link to Twitter profile */}
-        <a href="                                                                                                                                                                                              " target="_blank" rel="noopener noreferrer" class="footers">
-          Twitter : <i className="twitter"></i> {/* Twitter icon */}
+        <a href="" target="_blank" rel="noopener noreferrer" className="text-white ml-3">
+          Twitter:
+          <i className="fab fa-twitter"></i> {/* Twitter icon */}
         </a>
-        
       </div>
     </footer>
   );
@@ -28,32 +27,3 @@ const Footer = () => {
 
 export default Footer;
 
-// import React from 'react';
-// import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
-// // import './Footer.css'; // Import the style sheet for Footer
-
-// const Footer = () => {
-//   return (
-//     <footer className="footer-container"> 
-//       <div> 
-//         {/* Link to GitHub profile */}
-//         <Link to="/github" className="footers">
-//           GitHub
-//         </Link>
-
-//         {/* Link to LinkedIn profile */}
-//         <Link to="/linkedin" className="footers">
-//           LinkedIn
-//         </Link>
-
-//         {/* Link to Twitter profile */}
-//         <Link to="/twitter" className="footers">
-//           Twitter
-//         </Link>
-        
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;

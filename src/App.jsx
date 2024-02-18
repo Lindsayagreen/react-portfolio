@@ -19,7 +19,6 @@ function App() {
           <div className="content">
             <Routes> {/* Use 'Routes' component to define different routes for the app */}
               <Route path="/" element={<Aboutme />} /> {/* Define the route for the 'AboutMe' component */}
-              <Route path="/aboutme" element={<Aboutme />} /> {/* Define the route for the 'AboutMe' component */}
               <Route path="/portfolio" element={<Portfolio />} /> {/* Define the route for the 'Portfolio' component */}
               <Route path="/contact" element={<Contact />} /> {/* Define the route for the 'Contact' component */}
               <Route path="/resume" element={<Resume />} /> {/* Define the route for the 'Resume' component */}

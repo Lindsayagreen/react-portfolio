@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-<components></components>
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   // State to keep track of the active item
@@ -12,31 +11,32 @@ const Navigation = () => {
   };
 
   return (
-    <nav>
-      <ul>
-        <li className={activeItem === 'about' ? 'active' : ''}>
-          <a href="#about" onClick={() => handleItemClick('about')}>
-            About Me
-          </a>
-        </li>
-        <li className={activeItem === 'portfolio' ? 'active' : ''}>
-          <a href="#portfolio" onClick={() => handleItemClick('portfolio')}>
-            Portfolio
-          </a>
-        </li>
-        <li className={activeItem === 'resume' ? 'active' : ''}>
-          <a href="#resume" onClick={() => handleItemClick('resume')}>
-            Resume
-          </a>
-        </li>
-        <li className={activeItem === 'contact' ? 'active' : ''}>
-          <a href="#contact" onClick={() => handleItemClick('contact')}>
-            Contact Me
-          </a>
-        </li>
-      </ul>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">Lindsay Green</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul className="navbar-nav justify-content-end mb-2 mb-lg-0">
+            <li className={activeItem === 'about' ? 'active nav-item' : 'nav-item'}>
+              <Link className="nav-link" aria-current="page" to="/" onClick={() => handleItemClick('about')}>About Me</Link>
+            </li>
+            <li className={activeItem === 'portfolio' ? 'active nav-item' : 'nav-item'}>
+              <Link className="nav-link" to="/portfolio" onClick={() => handleItemClick('portfolio')}>Portfolio</Link>
+            </li>
+            <li className={activeItem === 'contact' ? 'active nav-item' : 'nav-item'}>
+              <Link className="nav-link" to="/contact" onClick={() => handleItemClick('contact')}>Contact</Link>
+            </li>
+            <li className={activeItem === 'resume' ? 'active nav-item' : 'nav-item'}>
+              <Link className="nav-link" to="/resume" onClick={() => handleItemClick('resume')}>Resume</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 };
 
 export default Navigation;
+
